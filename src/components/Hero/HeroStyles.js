@@ -57,6 +57,16 @@ export const ContainerAboutStyled = styled.div`
 
   @media (min-width: 1080px) {
     padding: 0px 50px;
+    margin-right: 50px;
+  }
+
+  @media (min-width: 1285px) {
+    margin-right: 80px;
+  }
+
+  @media (min-width: 1350px) {
+    margin-top: 80px;
+    margin-right: 120px;
   }
 
   p {
@@ -108,8 +118,15 @@ export const ContainerAboutStyled = styled.div`
   }
   @media (min-width: 1080px) {
     p {
-      width: 50%;
+      width: 65%;
       line-height: 30px;
+    }
+  }
+
+  @media (min-width: 1285px) {
+    p {
+      font-size: 22px;
+      line-height: 35px;
     }
   }
 
