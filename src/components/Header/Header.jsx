@@ -8,7 +8,7 @@ import {
   SpanStyled,
 } from "./HeaderStyles";
 
-import { CiBoxList } from "react-icons/ci";
+//import { CiBoxList } from "react-icons/ci";
 
 const Header = () => {
   return (
@@ -24,11 +24,6 @@ const Header = () => {
             <SpanStyled>Social</SpanStyled>
           </motion.div>
         </ContainerLinksStyled>
-        <HamburgerIconStyled>
-          <motion.div whileTap={{ scale: 1.2 }}>
-            <CiBoxList />
-          </motion.div>
-        </HamburgerIconStyled>
       </HeaderContainerStyled>
     </>
   );
