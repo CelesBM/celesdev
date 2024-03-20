@@ -2,6 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleMenu, setScrollTop } from "../../redux/MenuSlice";
 import { motion } from "framer-motion";
+import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
 import {
   HeaderContainerStyled,
   HamburgerIconStyled,
@@ -37,6 +38,12 @@ const Header = () => {
             </motion.div>
           </LinkHeaderStyled>
         </ContainerLinksStyled>
+        <HamburgerIconStyled onClick={handleMenu}>
+          <motion.div whileTap={{ scale: 1.2 }}>
+            <h1>A</h1>
+          </motion.div>
+        </HamburgerIconStyled>
+        {isMenuOpen && <HamburgerMenu />}
       </HeaderContainerStyled>
     </>
   );
