@@ -71,8 +71,7 @@ const Hero = () => {
           </SkillsStyled>
         </ContainerSkillsStyled>
         <ContainerButtonStyled>
-          <ButtonLinkStyled>My projects</ButtonLinkStyled>
-
+          <ButtonLinkStyled to="/Projects">My projects</ButtonLinkStyled>
           <ButtonStyled onClick={handleDownloadCV}>Download CV </ButtonStyled>
         </ContainerButtonStyled>
       </ContainerHeroStyled>
@@ -81,12 +80,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-/*
- <ContainerButtonStyled>
-          <ButtonLinkStyled to="/Projects">My projects</ButtonLinkStyled>
-
-          <ButtonStyled onClick={handleDownloadCV}>Download CV </ButtonStyled>
-        </ContainerButtonStyled>
-      </ContainerHeroStyled>
-*/
