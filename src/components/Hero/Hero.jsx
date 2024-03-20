@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   const handleDownloadCV = () => {
-    const downloadCV = "/curriculum.pdf"; // Ruta relativa al directorio public
+    const downloadCV = "/curriculum.pdf";
     window.open(downloadCV);
   };
 
@@ -27,7 +27,7 @@ const Hero = () => {
             will be able to learn a little about my skills and the projects I
             have worked on.
           </p>
-          <img src="/cv.jpeg" alt="" />
+          <img src="/cv.jpeg" alt="cv" />
         </ContainerAboutStyled>
         <ContainerSkillsStyled>
           <h4>Skills</h4>
