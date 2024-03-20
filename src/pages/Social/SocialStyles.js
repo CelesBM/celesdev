@@ -111,5 +111,3 @@ export const SocialStyled = styled.div`
     }
   }
 `;
-
-export const LinkStyled = styled(Link)``;

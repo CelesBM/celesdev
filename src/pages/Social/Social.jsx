@@ -1,16 +1,16 @@
 import React from "react";
-//import Header from "../../components/Header/Header";
+import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import {
   ContainerSocialStyled,
   ContainerPagesStyled,
   SocialStyled,
-  LinkStyled,
 } from "./SocialStyles";
 
 const Social = () => {
   return (
     <>
+      <Header />
       <ContainerSocialStyled>
         <p>
           In this section, I would love to share with you the platforms where

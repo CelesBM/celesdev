@@ -1,6 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
-//import Header from "../../components/Header/Header";
+import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import {
   ContainerProjectsStyled,
@@ -11,6 +10,7 @@ import {
 const Projects = () => {
   return (
     <>
+      <Header />
       <ContainerProjectsStyled>
         <h6>
           Welcome to my projects section! I am pleased to share with you a
@@ -152,7 +152,6 @@ const Projects = () => {
           have many works to show you
         </h6>
       </ContainerProjectsStyled>
-
       <Footer />
     </>
   );
