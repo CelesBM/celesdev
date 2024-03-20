@@ -10,8 +10,7 @@ import {
   LinkHeaderStyled,
   SpanStyled,
 } from "./HeaderStyles";
-
-//import { CiBoxList } from "react-icons/ci";
+import { CiBoxList } from "react-icons/ci";
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -40,7 +39,7 @@ const Header = () => {
         </ContainerLinksStyled>
         <HamburgerIconStyled onClick={handleMenu}>
           <motion.div whileTap={{ scale: 1.2 }}>
-            <h1>A</h1>
+            <CiBoxList />
           </motion.div>
         </HamburgerIconStyled>
         {isMenuOpen && <HamburgerMenu />}
