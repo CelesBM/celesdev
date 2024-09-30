@@ -40,6 +40,12 @@ const Hero = () => {
             </motion.div>
             <motion.div whileHover={{ scale: 1.2 }}>
               <img
+                src="https://cdn4.iconfinder.com/data/icons/logos-brands-in-colors/404/c_logo-512.png"
+                alt="C"
+              />
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.2 }}>
+              <img
                 src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
                 alt="React"
               />
@@ -66,6 +72,18 @@ const Hero = () => {
               <img
                 src="https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/boostrap-256.png"
                 alt="BOOSTRAP"
+              />
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.2 }}>
+              <img
+                src="https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Image-HD.png"
+                alt="MongoDB"
+              />
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.2 }}>
+              <img
+                src="https://cdn1.iconfinder.com/data/icons/hawcons/32/700048-icon-89-document-file-sql-256.png"
+                alt="PostgreSQL"
               />
             </motion.div>
           </SkillsStyled>
